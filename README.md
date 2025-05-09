@@ -14,7 +14,7 @@
 
 ## 📌 Descrição
 
-Este repositório contém aplicações e módulos de estudo com **Angular**, voltados para a construção de **interfaces ricas**, responsivas e integradas com **serviços em nuvem**, especialmente soluções baseadas na AWS como **API Gateway, Lambda, Cognito, S3** e **CloudFront**. O foco está em boas práticas de desenvolvimento frontend moderno, incluindo testes, acessibilidade e automação de deploy.
+Este repositório contém aplicações e módulos de estudo com **Angular**, voltados para a construção de **interfaces ricas**, responsivas e integradas com **serviços em nuvem**, especialmente soluções baseadas na AWS como **API Gateway, Lambda, Cognito, S3** e **CloudFront**. O foco está em boas práticas de desenvolvimento frontend moderno, incluindo testes, acessibilidade e automação de deploy, incorporando conceitos avançados de reatividade e gerenciamento de estado com RxJS, bem com, NgRx/Store.
 
 > ⚠️ Projeto em constante evolução. Algumas funcionalidades ainda estão sendo ajustadas.
 
@@ -29,6 +29,11 @@ Este repositório contém aplicações e módulos de estudo com **Angular**, vol
 - ☁️ **Integração com AWS S3, CloudFront, API Gateway, Cognito**
 - 🚀 **CI/CD com GitHub Actions / AWS CodePipeline**
 - 📦 **Angular CLI, RxJS, Angular Universal**
+- 🧱 **Interface com Angular Material**
+- 🧱 **Angular (front-end)**
+- 🔄 **RxJS (gerenciamento de fluxo reativo)**
+- 📦 **NgRx / Store (Gerenciamento de estado)**
+- 🔗 **GraphQL / Apollo Client (Integração com API)**
 
 ---
 
@@ -71,7 +76,7 @@ angular-dev/
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/SEU_USUARIO/angular-dev.git
+git clone https://github.com/alfecjo/angular-dev.git
 cd angular-dev
 
 # Instalar dependências
@@ -89,6 +94,7 @@ ng serve
 - Angular CLI instalado globalmente (npm install -g @angular/cli)
 - Conta AWS com permissões básicas para S3, API Gateway, Cognito (opcional)
 - Navegador moderno (Chrome, Edge, Firefox)
+- Familiaridade com RxJS e NgRx
 
 ---
 
@@ -99,10 +105,10 @@ ng serve
 ng build --configuration=production
 
 # Fazer upload para bucket S3 (exemplo com AWS CLI)
-aws s3 sync ./dist/angular-dev/ s3://meu-site-angular --delete
+aws s3 sync ./dist/angular-dev/ s3://project --delete
 
 # (opcional) Invalidação de cache no CloudFront
-aws cloudfront create-invalidation --distribution-id SEU_ID --paths "/*"
+aws cloudfront create-invalidation --distribution-id SUA_CONTA_SEU_ID --paths "/*"
 
 ```
 
@@ -114,6 +120,9 @@ aws cloudfront create-invalidation --distribution-id SEU_ID --paths "/*"
  - Angular Universal (SSR)
  - Otimização com lazy loading e pré-carregamento inteligente
  - Progressive Web App (PWA)
+ - 🔄 Melhoria no gerenciamento de estado com NgRx Store
+ - 🚀 Melhoria na performance com web workers
+ - 🖥️ Microfrontends para escalabilidade
 
 ---
 
