@@ -120,9 +120,9 @@ aws cloudfront create-invalidation --distribution-id SUA_CONTA_SEU_ID --paths "/
  - Angular Universal (SSR)
  - Otimização com lazy loading e pré-carregamento inteligente
  - Progressive Web App (PWA)
- - 🔄 Melhoria no gerenciamento de estado com NgRx Store
- - 🚀 Melhoria na performance com web workers
- - 🖥️ Microfrontends para escalabilidade
+ - Melhoria no gerenciamento de estado com NgRx Store
+ - Melhoria na performance com web workers
+ - Microfrontends para escalabilidade
 
 ---
 
