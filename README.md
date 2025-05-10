@@ -1,6 +1,10 @@
 # 🌐 Angular Dev — Desenvolvimento Front-End Moderno com Angular
 
-🔗 [![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)]()
+🔗 [![Status](https://img.shields.io/badge/Bootstrap-Responsive-yellow?style=for-the-badge)](./bootstrap-5.3.2-examples)
+
+<p> 🎓 Atividade prática complementar do curso de Pós-graduação em Tecnologia Java da <strong>UTFPR - Universidade Tecnológica Federal do Paraná</strong>, com foco no desenvolvimento de interfaces utilizando o <strong>framework Bootstrap</strong>. Esta etapa tem como objetivo aplicar os principais componentes do Bootstrap para criar páginas web modernas, responsivas e funcionais. </p> <p> 💡 Os exemplos disponibilizados demonstram como utilizar <strong>grids responsivos</strong>, <strong>cards</strong>, <strong>botões estilizados</strong>, <strong>alertas</strong>, <strong>modais</strong>, <strong>tabelas</strong> e outros recursos visuais oferecidos pelo framework. Tudo isso é feito com HTML, CSS e um toque de JavaScript, com foco em boas práticas de front-end. </p> <p> 📱 A proposta é mostrar como o Bootstrap pode acelerar o desenvolvimento de interfaces profissionais e compatíveis com diferentes tamanhos de tela, otimizando a experiência do usuário sem a necessidade de configurações complexas ou reescrita de estilos do zero. </p> <p> 🚀 Esta prática serve como base para a construção de aplicações web completas, sendo facilmente integrável com back-ends desenvolvidos em <strong>Java Spring</strong>, <strong>Node.js</strong> ou qualquer outra tecnologia que consuma os dados por meio de APIs REST. </p>
+
+---
 
 🔗 [![Framework](https://img.shields.io/badge/Framework-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
 
